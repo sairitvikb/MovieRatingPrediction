@@ -66,3 +66,6 @@ All tests used α = 0.005 as the significance threshold to control for multiple 
 ## Dataset Description
 
 The dataset contains movie ratings from 1,097 research participants evaluating 400 movies. This dataset stems from a replication attempt of published research (Wallisch & Whritner, 2017).
+### Movie Ratings
+* Columns 1-400: Movie ratings (0 to 4 stars, with missing values)
+* 400 movies total, including titles from major franchises

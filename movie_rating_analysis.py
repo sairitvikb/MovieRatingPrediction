@@ -65,6 +65,7 @@ print(f"U-statistic: {u_stat:,.1f}, p-value: {p_value:.2e}")
 print(f"New movies (>={median_year:.0f}): n={len(new_ratings):,}, mean={new_ratings.mean():.4f}")
 print(f"Old movies (<{median_year:.0f}): n={len(old_ratings):,}, mean={old_ratings.mean():.4f}")
 print(f"Conclusion: {'Reject H0' if p_value < 0.005 else 'Fail to reject H0'} (alpha=0.005)")
+# compare Shrek ratings with similar movies
 
 print("\n" + "=" * 60)
 print("Q3: Is Shrek rated higher than other animated movies?")

@@ -42,3 +42,6 @@ Movies from the 1990s and 2000s were compared using a two-tailed Mann-Whitney U 
 - **Kolmogorov-Smirnov Test**: Non-parametric test for comparing complete distributions between two groups
 - **Kruskal-Wallis Test**: Non-parametric alternative to one-way ANOVA for comparing multiple groups
 
+### Significance Level
+
+All tests used α = 0.005 as the significance threshold to control for multiple comparisons and reduce false positives.

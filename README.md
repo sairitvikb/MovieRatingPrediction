@@ -52,3 +52,14 @@ All tests used α = 0.005 as the significance threshold to control for multiple 
 - Gender categories: female = 1, male = 2; self-described (3) excluded
 - Only child status: only child = 1, has siblings = 0
 - Viewing preference: social viewing = 0, solo viewing = 1
+## Project Structure
+
+```
+.
+├── movie_rating_analysis.py  # Main analysis script
+├── requirements.txt          # Python dependencies
+├── README.md                 # This file
+├── .gitignore                # Git ignore rules
+└── data/                     # Data directory
+    └── movieReplicationSet.csv  # Movie ratings dataset
+```

@@ -107,6 +107,7 @@ if gender_cols:
     print(f"Male viewers: n={len(male_ratings):,}, mean={male_ratings.mean():.4f}")
     print(f"Female viewers: n={len(female_ratings):,}, mean={female_ratings.mean():.4f}")
     print(f"Conclusion: {'Reject H0' if p_value < 0.005 else 'Fail to reject H0'} (alpha=0.005)")
+#analyze only-child vs siblings rating differences
 
 print("\n" + "=" * 60)
 print("Q5: Do only children rate movies differently?")

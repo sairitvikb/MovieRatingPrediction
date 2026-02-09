@@ -84,6 +84,7 @@ print(f"U-statistic: {u_stat:,.1f}, p-value: {p_value:.2e}")
 print(f"Shrek: n={len(shrek_ratings)}, mean={shrek_ratings.mean():.4f}")
 print(f"Comparison movies: n={len(other_ratings)}, mean={other_ratings.mean():.4f}")
 print(f"Conclusion: {'Reject H0' if p_value < 0.005 else 'Fail to reject H0'} (alpha=0.005)")
+# analyze gender-based rating differences
 
 print("\n" + "=" * 60)
 print("Q4: Do male and female viewers rate movies differently?")

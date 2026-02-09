@@ -77,3 +77,16 @@ The dataset contains movie ratings from 1,097 research participants evaluating 4
 * Columns 401-421: Sensation seeking behaviors (1-5 scale)
 * Columns 422-464: Personality questions (1-5 scale)
 * Columns 465-474: Movie experience ratings (1-5 scale)
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/sairitvikb/MovieRatingPrediction.git
+
+cd MovieRatingAnalysis
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```

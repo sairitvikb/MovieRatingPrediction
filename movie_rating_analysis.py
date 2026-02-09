@@ -41,6 +41,7 @@ print(f"U-statistic: {u_stat:,.1f}, p-value: {p_value:.2e}")
 print(f"High popularity: n={len(high_pop_ratings):,}, mean={high_pop_ratings.mean():.4f}")
 print(f"Low popularity: n={len(low_pop_ratings):,}, mean={low_pop_ratings.mean():.4f}")
 print(f"Conclusion: {'Reject H0' if p_value < 0.005 else 'Fail to reject H0'} (alpha=0.005)")
+#compare newer and older movie ratings
 
 print("\n" + "=" * 60)
 print("Q2: Are newer movies rated differently than older movies?")

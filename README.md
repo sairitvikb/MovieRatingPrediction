@@ -73,3 +73,7 @@ The dataset contains movie ratings from 1,097 research participants evaluating 4
 * Column 475: Gender identity (1 = female, 2 = male, 3 = self-described)
 * Column 476: Only child status (1 = yes, 0 = no, -1 = no response)
 * Column 477: Viewing preference (1 = prefer watching alone, 0 = prefer social viewing, -1 = no response)
+### Additional Data
+* Columns 401-421: Sensation seeking behaviors (1-5 scale)
+* Columns 422-464: Personality questions (1-5 scale)
+* Columns 465-474: Movie experience ratings (1-5 scale)

@@ -69,3 +69,7 @@ The dataset contains movie ratings from 1,097 research participants evaluating 4
 ### Movie Ratings
 * Columns 1-400: Movie ratings (0 to 4 stars, with missing values)
 * 400 movies total, including titles from major franchises
+### Participant Demographics
+* Column 475: Gender identity (1 = female, 2 = male, 3 = self-described)
+* Column 476: Only child status (1 = yes, 0 = no, -1 = no response)
+* Column 477: Viewing preference (1 = prefer watching alone, 0 = prefer social viewing, -1 = no response)

@@ -128,6 +128,7 @@ if sibling_cols:
     print(f"Only children: n={len(only_child_ratings):,}, mean={only_child_ratings.mean():.4f}")
     print(f"Has siblings: n={len(has_sibling_ratings):,}, mean={has_sibling_ratings.mean():.4f}")
     print(f"Conclusion: {'Reject H0' if p_value < 0.005 else 'Fail to reject H0'} (alpha=0.005)")
+#analyze social vs solo movie watching behavior
 
 print("\n" + "=" * 60)
 print("Q6: Do social viewers rate differently than solo viewers?")

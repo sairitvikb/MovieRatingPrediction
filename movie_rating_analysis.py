@@ -176,6 +176,7 @@ for franchise, movies in franchises.items():
         print(f"  First vs sequels: U={u_stat:,.0f}, p={p_value:.4f}")
         print(f"  First: mean={first_movie.mean():.3f}, Sequels: mean={sequel_ratings.mean():.3f}")
         print(f"  Result: {'First rated higher' if p_value < 0.005 else 'No significant difference'}")
+# finalize analysis script and outputs
 
 print("\n" + "=" * 60)
 print("Analysis Complete")

@@ -149,6 +149,7 @@ if social_cols:
     print(f"Social viewers: n={len(social_ratings):,}, mean={social_ratings.mean():.4f}")
     print(f"Solo viewers: n={len(solo_ratings):,}, mean={solo_ratings.mean():.4f}")
     print(f"Conclusion: {'Reject H0' if p_value < 0.005 else 'Fail to reject H0'} (alpha=0.005)")
+#analyze franchise sequel vs original ratings
 
 print("\n" + "=" * 60)
 print("Q7-Q11: Franchise Rating Comparisons")

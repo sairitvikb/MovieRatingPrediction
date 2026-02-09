@@ -45,3 +45,10 @@ Movies from the 1990s and 2000s were compared using a two-tailed Mann-Whitney U 
 ### Significance Level
 
 All tests used α = 0.005 as the significance threshold to control for multiple comparisons and reduce false positives.
+### Data Processing
+
+- Median splits were used to create comparison groups for popularity and release year analyses
+- Non-responses (coded as −1) were excluded from relevant analyses
+- Gender categories: female = 1, male = 2; self-described (3) excluded
+- Only child status: only child = 1, has siblings = 0
+- Viewing preference: social viewing = 0, solo viewing = 1

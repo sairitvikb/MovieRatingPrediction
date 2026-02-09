@@ -8,6 +8,8 @@ Statistical analysis of movie ratings data.
 import pandas as pd
 import numpy as np
 from scipy import stats
+# load dataset from data/movieReplicationSet.csv
+
 
 df = pd.read_csv('data/movieReplicationSet.csv')
 

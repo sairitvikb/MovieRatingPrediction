@@ -12,6 +12,7 @@ from scipy import stats
 
 
 df = pd.read_csv('data/movieReplicationSet.csv')
+#implement popularity vs rating statistical test
 
 print("=" * 60)
 print("Q1: Do movies with higher popularity receive higher ratings?")

@@ -1,3 +1,5 @@
+#  add project header and imports for analysis script
+
 """
 Movie Rating Analysis
 Statistical analysis of movie ratings data.

@@ -34,3 +34,11 @@ Analysis of 8 major franchises (Star Wars, Harry Potter, The Matrix, Indiana Jon
 ### Decade-Based Analysis
 
 Movies from the 1990s and 2000s were compared using a two-tailed Mann-Whitney U test. Results showed that movies from the 1990s (n = 33,055, mean = 2.8842) are rated significantly differently than those from the 2000s (n = 44,034, mean = 2.8205), with a mean difference of 0.0637 (U = 756,760,247.0, p = 6.073044 × 10⁻²²).
+## Methodology
+
+### Statistical Tests
+
+- **Mann-Whitney U Test**: Non-parametric test for comparing two independent groups, used for one-tailed and two-tailed comparisons
+- **Kolmogorov-Smirnov Test**: Non-parametric test for comparing complete distributions between two groups
+- **Kruskal-Wallis Test**: Non-parametric alternative to one-way ANOVA for comparing multiple groups
+

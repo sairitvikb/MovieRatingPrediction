@@ -90,3 +90,19 @@ cd MovieRatingAnalysis
 ```bash
 pip install -r requirements.txt
 ```
+
+
+## Usage
+
+Run the complete analysis:
+
+```bash
+python movie_rating_analysis.py
+```
+
+The script will:
+1. Load and preprocess the data
+2. Perform all statistical hypothesis tests
+3. Print comprehensive results for each analysis component
+
+All tests use a significance level of α = 0.005 to control for multiple comparisons and reduce false positives.

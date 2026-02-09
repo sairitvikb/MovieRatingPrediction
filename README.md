@@ -63,3 +63,6 @@ All tests used α = 0.005 as the significance threshold to control for multiple 
 └── data/                     # Data directory
     └── movieReplicationSet.csv  # Movie ratings dataset
 ```
+## Dataset Description
+
+The dataset contains movie ratings from 1,097 research participants evaluating 400 movies. This dataset stems from a replication attempt of published research (Wallisch & Whritner, 2017).
